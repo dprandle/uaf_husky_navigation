@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>uaf_husky_navigation</name>
+  <version>1.0.0</version>
+  <description>Customized husky navigation package for uaf</description>
+  <maintainer email="dprandle@alaska.edu">Daniel Randle</maintainer>
+  <license>BSD</license>
+  <author email="pmukherj@clearpathrobotics.com">Prasenjit Mukherjee</author>
+  <author email="paul@bovbel.com">Paul Bovbel</author>
+  <url type="website">http://ros.org/wiki/husky_navigation</url>
+  <url type="repository">https://github.com/husky/husky</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <export>
+  </export>
+</package>
